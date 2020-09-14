@@ -1,17 +1,13 @@
 import React, { useState } from "react";
 import {
   StyleSheet,
-  Text,
   View,
   FlatList,
   Alert,
   TouchableWithoutFeedback,
   Keyboard,
-  ScrollView,
 } from "react-native";
-// import { useDimensions } from "@react-native-community/hooks";
-// import WelcomeScreen from "./app/screens/WelcomeScreen";
-// import ViewImageScreen from "./app/screens/ViewImageScreen";
+
 import Header from "./components/header";
 import TodoItem from "./components/todoItem";
 import AddTodo from "./components/addTodo";
@@ -76,7 +72,6 @@ const styles = StyleSheet.create({
     padding: 40,
   },
   list: {
-    // flex: 1,
     marginTop: 20,
   },
 });
