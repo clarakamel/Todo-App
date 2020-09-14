@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 
+/*component responsible for showing/styling the added todos*/
 export default function TodoItem({ item, deleteText }) {
   return (
     <TouchableOpacity onPress={() => deleteText(item.key)}>

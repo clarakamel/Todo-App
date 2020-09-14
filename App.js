@@ -30,7 +30,7 @@ export default function App() {
       return prevTodos.filter((todo) => todo.key != key);
     });
   };
-/* Function responsible for validating the input data*/
+  /* Function responsible for validating the input data*/
   const submitHandler = (text) => {
     if (text.length > 3) {
       setTodos((prevTodos) => {

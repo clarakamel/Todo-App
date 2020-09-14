@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, TextInput, Button, View } from "react-native";
 
+/*component responsible for creating the input field and button to add a new Todo*/
 export default function AddTodo({ submitHandler }) {
   const [text, setText] = useState("");
 
